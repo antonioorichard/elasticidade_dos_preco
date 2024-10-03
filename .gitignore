@@ -1,0 +1,10 @@
+# Ignorar a pasta de configuração
+#sua_pasta/
+
+# Ignorar o arquivo de leitura
+#README.md
+
+# Ignorar a imagem
+#image.png
+
+privado/

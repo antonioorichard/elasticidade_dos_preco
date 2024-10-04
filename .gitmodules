@@ -1,0 +1,6 @@
+[submodule "arquivos_privado_elaticidade_dos_precos"]
+	path = arquivos_privado_elaticidade_dos_precos
+	url = https://github.com/antonioorichard/arquivos_privado_elaticidade_dos_precos.git
+[submodule "privados"]
+	path = privados
+	url = https://github.com/antonioorichard/arquivos_privado_elaticidade_dos_precos.git

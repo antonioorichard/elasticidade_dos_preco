@@ -110,7 +110,7 @@ Maximizar o lucro por meio dos melhores ajustes dos preços.
 
 Produto de dados solicitado: 
 
-* Uma clusterização com descrição das características dos melhores clientes. 
+* Estudo do impacto da alteração de preço sobre a vendas do produto, em primeiro momento o speaker. 
 
   
 
@@ -131,7 +131,25 @@ Serão realizadas o cálculo da elasticidade do preço nos produtos com uma sign
 
 ## 3. Planejamento da solução 
 
-  
+Baixar os dados e ler os dados
+
+Executar o processo de limpeza de dados como:
+
+renomear colunas
+
+renomear categorias mudar de tipo de variável, caso necessário
+
+Estatística descritiva com visualização
+
+Feature Engineering
+
+Machine Learning
+
+Elasticidade
+
+Business Performance
+
+Cross Price Elasticity
 
 ### 3.1. Produto final 
 
@@ -140,7 +158,7 @@ Serão realizadas o cálculo da elasticidade do preço nos produtos com uma sign
 O que será entregue efetivamente? 
 
 
-- Um grafico com a elesticidade de preços e os nomes do produtos
+- Um gráfico com a elesticidade de preços e os nomes do produtos
 - Uma tabela com as elasticidade de preços e os nomes do produtos
 
 
@@ -160,81 +178,26 @@ Quais ferramentas serão usadas no processo?
 
 - Python; 
 
-- Google Sheets; 
+- streamlit; 
 
 - Sistema Linux. 
 
   
 
-## 4. Os 3 principais insights dos clientes 
-
-  
-
-#### 1 Qual o período do ano que mais vende? 
-
-  
-
-* 1. novembro.  
-
-* 2. outubro.  
-
-* 3. setembro. 
-
-  
-
-* Insight de negócio: Como se trata de um ecommerce de produtos voltados para presentes, existe um aumento significativo de vendas nos meses de setembro até a novembro. O que pode ser explicado no que se refere aos meses próximo do Natal e festividades. Contudo, nota se compras em atacado, o que remete a presença de revendedores, principalmente para o mês de outubro.  A empresa pode abraçar dando promoção a esses atacadistas ou limitar a quantidade de compra para aqueles produtos que tem uma previsão alta de vendas entre os dois últimos meses do ano, e buscar fazer elas mesmo a venda neste mercado. 
-
   
 
   
 
-#### 2 Qual o período do ano que menos vende? 
+## 4. Resultados para o negócio 
 
   
 
-* 1. dezembro. 
-
-* 2. fevereiro. 
-
-* 3. abril. 
+### 4.1 Resultados 
 
   
 
-  
+![Dataset](imagem/df_elasticity_resultado.jpg) 
 
-  
-
-#### 3 Qual país é do cliente que mais compra? 
-
-  
-
-* United Kingdom, o que era de espera já que maior parte das vendas é para United Kingdom. 
-
-  
-
-* Insight de negócio: É necessária uma pesquisa para saber o motivo das vendas está concentrado mais em United Kingdom. 
-
-  
-
-  
-
-## 5. Resultados para o negócio 
-
-  
-
-### 5.1 Resultados do cluster 
-
-  
-
-![Silhouete Score](image/silhouete_score.jpg) 
-
-  
-
-### 5.2 Mapa dos cluster encontrado 
-
-  
-
-![Silhouete Score](image/mapa_cluster.jpg) 
 
   
 
@@ -246,7 +209,7 @@ Como resultado para o negócio foram criados:
 
   
 
-* Dataset ou conjunto de dados em sqlite. 
+* Dataset ou conjunto de dados com a elasticidade dos preço e outras informações estatística como p-value. 
 
   
 
@@ -268,7 +231,7 @@ Como resultado para o negócio foram criados:
 
   
 
-* O objetivo do projeto foi alcançado, dado que os produtos de dados propostos foram gerados com sucesso. O time de negócio irar utilizar para a tomada de decisão. 
+* O objetivo foi alcançado, dado que o produto de dados foram gerados com sucesso. O funcionario pode utilizar a ferramenta criado para fazer a elasticidade de preço. 
 
   
 
@@ -281,8 +244,6 @@ Planilha no google sheets [Planilha com resultados do perfil dos grupos](https:/
 ![Planilha com a média do perfil dos grupos](image/result.jpg) 
 
   
-
-Em relação aos tons de cores deve interpretar em relação ao quanto este grupo dar lucro a empresa verde e azul são cores que quanto mais fortes mais dar lucro. já as demais cores quanto mais forte menos dá lucro. Observação a tabela já está organizada neste sentido. 
 
   
 

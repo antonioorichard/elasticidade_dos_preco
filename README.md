@@ -1,7 +1,9 @@
  
 
-![Analyzing customer groups](image/online-shopping-4532460_640.jpg) 
+![Analyzing customer groups](imagem/Ecommerce-Website.jpg) 
 
+Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billionaire365.com/2019/02/25/what-is-an-ecommerce-website/)
+ das empresas Amazon, Bestbuy, barcodable , bhphotovideo, ebay, kmart e Walmart.
 # 0 Resumo sobre o projeto
 
 ## 0.1 Modelo de Negócio
@@ -10,25 +12,56 @@
 
 ## 0.2 Sede da empresa
 
-* Reino Unido
+
+
+1. **Amazon**
+   - Sede: Seattle, Washington, EUA
+   - Site: [Amazon](https://www.amazon.com)
+
+2. **Best Buy**
+   - Sede: Richfield, Minnesota, EUA
+   - Site: [Best Buy](https://www.bestbuy.com)
+
+3. **Barcodable**
+   - Sede: Orlando, Florida, EUA
+   - Site: [Barcodable](https://www.barcodable.com)
+
+4. **B&H Photo Video**
+   - Sede: Nova York, Nova York, EUA
+   - Site: [B&H Photo Video](https://www.bhphotovideo.com)
+
+5. **eBay**
+   - Sede: San José, Califórnia, EUA
+   - Site: [eBay](https://www.ebay.com)
+
+6. **Kmart**
+   - Sede: Hoffman Estates, Illinois, EUA
+   - Site: [Kmart](https://www.kmart.com)
+
+7. **Walmart**
+   - Sede: Bentonville, Arkansas, EUA
+   - Site: [Walmart](https://www.walmart.com)
 
 ## 0.3 Tipo de produto
  
-* Presentes exclusivos.
+* tv, television, video, laptop, computer, speaker, portable, bluetooth, camera, mirrorless, photo, car, speaker e subwoofer.
 
 ## 0.4 Problema
 
-* Falta de conhecimento sobre os clientes está levando a ter.
-   * Taxa de Retenção Baixa
-   * Falta de Personalização
-   * Gestão Ineficiente do Estoque
-   * Inabilidades em Prever Tendências de Mercado
-   * Problemas de Atendimento ao Cliente
+* Falta de conhecimento sobre como o aumento dos preços ou redução impacta as vendas (demanda pelo produto).
+   * Decisões de Preço Inadequadas.
+   * Perda de Clientes.
+   * Gestão de Estoque Ineficiente.
+   * Estratégia de Marketing Ineficaz.
+   * Segmentação de Mercado Incorreta.
+   * Problema de Competitividade.
+   * Impacto nas Finanças.
+   * Reputação da Marca.
  
 
 ## 0.5 Solução
 
-* Cluster - Segmentar a base de clientes.
+* Calcular a elasticidade dos preços
   * Insights
 
 ## 0.6 Impacto da solução
@@ -48,14 +81,6 @@
 
 
 
-Olá, seja bem-vindo(a)! 
-
-  
-
-  
-
-Este projeto, seguirá uma metodologia diferente dos demais anteriores, será feito inicialmente baseado em um projeto de outro aluno(a), como o propósito é gera conhecimento e não ofender ou denegrir a imagem deste, não será informado o autor do trabalho original. Por fim, encontra-se no meu repositório cinco notebooks. Primeiro, o original intitulado como notebook_reference.ipynb. Segundo o comentado, intitulado como pa05-end.ipynb que segue o trabalho do autor, mas umas reflexões quando discordar do caminho tomado ou desenvolvido do código por minha parte. Terceiro e quarto são notebooks com o código do deploy do projeto, tendo sido intitulados como pa05-deploy_local e pa05-deploy_local. Por último, o notebook Planejamento.ipynb, neste, estão as observações gerada durante as aulas do curso da comunidade DS.   
-
   
 
 ## 1. Problema de negócios 
@@ -73,7 +98,7 @@ Uma empresa pretende alterar os preços dos produtos vendidos, mas tem receio de
 
 ### 1.3 Motivação 
 
-A empresa está querendo realizar uma promoção personalizada para cada grupo de clientes. 
+Maximizar o lucro por meio dos melhores ajustes dos preços. 
 
   
 
@@ -95,53 +120,12 @@ Produto de dados solicitado:
 
   
 
-- O planejamento da solução será validado com os times de negócio, visando garantir que as soluções desenvolvidas sejam úteis na sua tomada de decisão. 
+- Todos os produtos de dados entregues devem ser acessíveis via internet.
 
-  
+O planejamento da solução será validado com os times de negócio, visando garantir que as soluções desenvolvidas sejam úteis na sua tomada de decisão.
 
-#### As variáveis do dataset original são: 
+Serão realizadas o cálculo da elasticidade do preço nos produtos com uma significância estatística maior que 5%.
 
-  
-
-  
-
-Variável | Definição 
------------- | ------------- 
-|invoice_no:|    		Número da fatura (um número integral de 6 dígitos atribuído exclusivamente a cada transação)| 
-|stock_code:|    		Código do produto (item)| 
-|description:|  		Product (item) name| 
-|quantity:|     		As quantidades de cada produto (item) por transação| 
-|invoice_date:|  		O dia em que cada transação foi gerada| 
-|unit_price:|    		Preço unitário (Preço do produto por unidade)| 
-|customer_id:|   		Número do cliente (ID exclusivo atribuído a cada cliente)| 
-|country:|      		Nome do país (O nome do país onde cada cliente reside)| 
-
-  
-
-  
-
-#### As variáveis do dataset criadas são: 
-
-  
-
-  
-
-Variável | Definição 
------------- | ------------- 
-|gross_revenue:|  	O total que o cliente gastou em um pedido. | 
-|returned: |			Informa se pedido retornou ou foi cancelado.| 
-|recency_days:|		A quantidade de dias que o cliente fez sua última compra em relação ao último dia do dataset ou data máxima.| 
-|quantity_purchased: |Quantidade de vezes que o cliente comprou.| 
-|total_items:    |   	Total de items comprado pelo cliente no período do dataset.| 
-|variety_products:|	Variedade de produtos comprado pelo cliente.| 
-|avg_per_purchase: |	Quantidade média gasta pelo cliente por pedido| 
-|interval_mean     |  A média dos intervalos de compra do cliente.| 
-|interval_std     |   O desvio padrão da média dos intervalos de compra do cliente.| 
-|n_buy		|		Número de vezes que o cliente comprou.| 
-|avg_basket_size: |	Média de itens por cesta| 
-|avg_product_basket:| Média de variedade de produtos por cesta.| 
-
-  
 
   
 
@@ -155,11 +139,10 @@ Variável | Definição
 
 O que será entregue efetivamente? 
 
-- Uma planilha com características dos clientes. 
 
-- Insight sobre o negócio. 
+- Um grafico com a elesticidade de preços e os nomes do produtos
+- Uma tabela com as elasticidade de preços e os nomes do produtos
 
-- Divisão dos clientes em segmentos.  
 
   
 
@@ -363,3 +346,31 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
 **Python 3.12.3** 
 
+A falta de conhecimento sobre como o aumento ou a redução dos preços impacta as vendas pode gerar diversos problemas para uma empresa. Aqui estão alguns dos principais:
+
+1. **Decisões de Preço Inadequadas:**
+   - **Aumento de Preços:** Se uma empresa não entende a sensibilidade ao preço dos seus clientes, pode aumentar os preços de forma inadequada e, como resultado, perder vendas e participação de mercado.
+   - **Redução de Preços:** Uma redução de preço sem análise adequada pode levar a margens de lucro mais baixas, reduzindo a rentabilidade mesmo que as vendas aumentem.
+
+2. **Perda de Clientes:**
+   - A falta de compreensão sobre a elasticidade da demanda pode resultar em preços que afastam os consumidores. Um aumento considerável de preço em produtos essenciais pode levar à perda de clientes para concorrentes.
+
+3. **Gestão de Estoques Ineficiente:**
+   - A inadequação na previsão de demanda impactada por mudanças de preços pode levar a excessos ou faltas de estoque. Isso gera custos adicionais com armazenamento ou perda de vendas por falta de produtos.
+
+4. **Estratégia de Marketing Ineficaz:**
+   - Um preço mal definido pode comprometer as campanhas de marketing. Se a empresa não sabe como o preço afeta a percepção do consumidor, campanhas podem ser direcionadas de forma ineficaz.
+
+5. **Segmentação de Mercado Incorreta:**
+   - Não entender como diferentes segmentos de clientes reagem a mudanças de preço impede que a empresa crie ofertas personalizadas que atendam às necessidades específicas de cada grupo.
+
+6. **Problemas de Competitividade:**
+   - Empresas que não acompanham a concorrência em termos de preços podem perder espaço no mercado. O desconhecimento das práticas de precificação pode fazer com que a empresa fique em desvantagem competitiva.
+
+7. **Impacto nas Finanças:**
+   - A má gestão de preços pode afetar o fluxo de caixa e a saúde financeira da empresa, levando a dificuldades financeiras e até insolvência.
+
+8. **Reputação da Marca:**
+   - Alterações de preços mal gerenciadas podem afetar negativamente a percepção da marca. Se os consumidores sentirem que estão sendo explorados com preços injustos, a lealdade à marca pode ser comprometida.
+
+Entender a relação entre preço e demanda é crucial para uma gestão eficaz e a sustentação do crescimento da empresa. Investir em pesquisas de mercado e análises financeiras pode ajudar a mitigar esses problemas. 

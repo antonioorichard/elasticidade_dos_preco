@@ -1,17 +1,15 @@
-!pip install matplotlib
-
 # Libre
 import os 
 
 import pandas as pd 
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 import streamlit as st
 
 # code
 home_path  = os.getcwd()
-df_business_performance_path = os.path.join( home_path, "data", "business_performance.csv")
-df_crossprice_path           = os.path.join( home_path, "data", "crossprice.csv")
-df_elasticity_path           = os.path.join( home_path, "data", "df_elasticity.csv")
+df_business_performance_path = os.path.join( home_path, "/home/win/Documentos/pa06/data", "business_performance.csv")
+df_crossprice_path           = os.path.join( home_path, "/home/win/Documentos/pa06/data", "crossprice.csv")
+df_elasticity_path           = os.path.join( home_path, "/home/win/Documentos/pa06/data", "df_elasticity.csv")
 
 # Carregar os dataframes
 df_business      = pd.read_csv( df_business_performance_path)
@@ -53,7 +51,7 @@ with tab1:
         for name, p in zip(df_elasticity["name"], df_elasticity["ranking"]):
             ax.text(4, p, name)
 
-        for x, y, s in (df_elasticity["price_elasticity"], df_elasticity["ranking"], df_elasticity["price_elasticity"]):
+        for x, y, s in zip(df_elasticity["price_elasticity"], df_elasticity["ranking"], df_elasticity["price_elasticity"]):
             ax.text(
                 x, 
                 y, 
@@ -74,14 +72,13 @@ with tab1:
         df_order_elasticity = (df_elasticity[["ranking", "name", "price_elasticity"]].
                                sort_values(by = "price_elasticity", ascending =False)
                               )
-        st.dataframe(df_oder_elasticity, use_container_width = True )
+        st.dataframe(df_order_elasticity, use_container_width = True )
 
 with tab2:
     # apresentar business performance
     st.header("Business Performance")
     df_business = df_business.set_index("name")
     st.dataframe( df_business, use_container_width = True )
-
 
 with tab3:
     # apresentar elasticidade cruzada de preços 

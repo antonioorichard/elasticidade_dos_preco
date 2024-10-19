@@ -28,30 +28,7 @@ tab1, tab2, tab3 = st.tabs(
                     "Elasticidade Cruzada de Preços", 
     ])
 
-# CSS
-# Estilizando os títulos das abas com CSS
-st.markdown("""
-    <style>
-    .streamlit-expanderHeader {
-        font-size: 24px; /* Ajuste o tamanho aqui */
-        font-weight: bold;
-        color: #e84a3a; /* Altere a cor se necessário */
-    }
-    </style>
-""", unsafe_allow_html=True)
 
-with tab1:
-    st.header("Elasticidade de Preços dos Produtos - Gráfico")
-    # Adicione seu conteúdo aqui
-
-with tab2:
-    st.header("Business Performances")
-    # Adicione seu conteúdo aqui
-
-with tab3:
-    st.header("Elasticidade Cruzada de Preços")
-    # Adicione seu conteúdo aqui
-# CSS
 
 
 with tab1:

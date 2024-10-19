@@ -7,9 +7,9 @@ import streamlit as st
 
 # code
 home_path  = os.getcwd()
-df_business_performance_path = os.path.join( home_path, "/home/win/Documentos/pa06/data", "business_performance.csv")
-df_crossprice_path           = os.path.join( home_path, "/home/win/Documentos/pa06/data", "crossprice.csv")
-df_elasticity_path           = os.path.join( home_path, "/home/win/Documentos/pa06/data", "df_elasticity.csv")
+df_business_performance_path = os.path.join( home_path, "data", "business_performance.csv")
+df_crossprice_path           = os.path.join( home_path, "data", "crossprice.csv")
+df_elasticity_path           = os.path.join( home_path, "data", "df_elasticity.csv")
 
 # Carregar os dataframes
 df_business      = pd.read_csv( df_business_performance_path)

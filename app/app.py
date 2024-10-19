@@ -1,3 +1,5 @@
+pip install matplotlib
+
 # Libre
 import os 
 

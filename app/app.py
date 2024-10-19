@@ -2,7 +2,7 @@
 import os 
 
 import pandas as pd 
-from matplotlib import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import streamlit as st
 
 # code
@@ -79,6 +79,7 @@ with tab2:
     st.header("Business Performance")
     df_business = df_business.set_index("name")
     st.dataframe( df_business, use_container_width = True )
+
 
 with tab3:
     # apresentar elasticidade cruzada de preços 

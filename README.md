@@ -241,7 +241,7 @@ Planilha no google sheets [Planilha com resultados do perfil dos grupos](https:/
 
   
 
-![Planilha com a média do perfil dos grupos](image/result.jpg) 
+[Dashbord no streamlit](https://elasticidade-dashbord.streamlit.app/) 
 
   
 

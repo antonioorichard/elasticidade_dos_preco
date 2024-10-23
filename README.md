@@ -44,7 +44,21 @@ Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billi
 
 ## 0.3 Tipo de produto
  
-* tv, television, video, laptop, computer, speaker, portable, bluetooth, camera, mirrorless, photo, car, speaker e subwoofer.
+* tv, television, video,
+* laptop, computer
+* speaker, portable, bluetooth
+* camera, mirrorless, photo
+* car, speaker e subwoofer
+* receiver, amplifier, home
+* camera, shoot
+* drive, storage, hard
+* drive, storage, internal
+* car, receiver, dash
+* player, home, audio
+* headphone, earbud, ear
+* headphone
+* ipod, player
+* ...
 
 ## 0.4 Problema
 

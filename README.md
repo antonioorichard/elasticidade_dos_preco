@@ -145,25 +145,25 @@ Serão realizadas o cálculo da elasticidade do preço nos produtos com uma sign
 
 ## 3. Planejamento da solução 
 
-Baixar os dados e ler os dados
+* Baixar os dados e ler os dados
 
-Executar o processo de limpeza de dados como:
+* Executar o processo de limpeza de dados como:
 
-renomear colunas
+	* renomear colunas
 
-renomear categorias mudar de tipo de variável, caso necessário
+	* renomear categorias mudar de tipo de variável, caso necessário
 
-Estatística descritiva com visualização
+* Estatística descritiva com visualização
 
-Feature Engineering
+* Feature Engineering
 
-Machine Learning
+* Machine Learning
 
-Elasticidade
+* Elasticidade
 
-Business Performance
+* Business Performance
 
-Cross Price Elasticity
+* Cross Price Elasticity
 
 ### 3.1. Produto final 
 

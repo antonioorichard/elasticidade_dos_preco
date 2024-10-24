@@ -75,7 +75,7 @@ Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billi
 
 ## 0.5 Solução
 
-* Calcular a elasticidade dos preços
+* A solução inicial - Calcular a elasticidade dos preços.
   * Insights
 
 ## 0.6 Impacto da solução

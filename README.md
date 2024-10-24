@@ -209,7 +209,7 @@ Quais ferramentas serão usadas no processo?
 ### 4.1 Resultados 
 
   
-
+								Imagem - Resultado
 ![Resultado](imagem/df_elasticity_resultado.jpg) 
 
 
@@ -249,7 +249,6 @@ Como resultado para o negócio foram criados:
 
   
 
-Planilha no google sheets [Planilha com resultados do perfil dos grupos](https://docs.google.com/spreadsheets/d/1sODujh6S8vNwnoUkBMuaOJWzYAolyqs-JhU4cWSq5oo/edit?usp=sharing). 
 
   
 

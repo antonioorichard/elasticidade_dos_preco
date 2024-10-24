@@ -124,7 +124,7 @@ Maximizar o lucro por meio dos melhores ajustes dos preços.
 
 Produto de dados solicitado: 
 
-* Estudo do impacto da alteração de preço sobre a vendas do produto, em primeiro momento o speaker. 
+* Estudo do impacto da alteração de preço sobre a vendas do produto, em primeiro momento concentrado na categoria speaker, portable, bluetooth. O produto speaker. 
 
   
 

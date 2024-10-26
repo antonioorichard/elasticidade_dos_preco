@@ -133,7 +133,7 @@ Produto de dados solicitado:
 
 O planejamento da solução será validado com os times de negócio, visando garantir que as soluções desenvolvidas sejam úteis na sua tomada de decisão.
 
-Serão realizadas o cálculo da elasticidade do preço nos produtos com uma significância estatística maior que 5%.
+Foram filtrados os resultados da elasticidade do preço para somente produtos com uma p-value estatística menor igual a 5%.
 
 
   

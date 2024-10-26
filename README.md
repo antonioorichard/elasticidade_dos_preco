@@ -99,18 +99,13 @@ Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billi
 
 ## 1. Problema de negócios 
 
-### 1.1 Sobre a empresa 
-
-
-
-
-### 1.2 Problema 
+### 1.1 Problema 
 
 Uma empresa pretende alterar os preços dos produtos vendidos, mas tem receio dessa alteração impactar na demanda desses produtos e por consequência no faturamento. Essa demanda foi submetida para você e como analista/cientista de dados precisa determinar a elasticidade dos preços usando a metodologia científica embasado nos dados dos preços dos produtos vendidos pela empresa.
 
   
 
-### 1.3 Motivação 
+### 1.2 Motivação 
 
 Maximizar o lucro por meio dos melhores ajustes dos preços. 
 
@@ -118,7 +113,7 @@ Maximizar o lucro por meio dos melhores ajustes dos preços.
 
   
 
-### 1.4 Demandas de negócio 
+### 1.3 Demandas de negócio 
 
   
 

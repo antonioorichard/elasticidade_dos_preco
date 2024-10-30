@@ -222,7 +222,8 @@ Como resultado para o negócio foram criados:
 
   
 
- 
+ ## 4.2 Business Performance
+ ## 4.3 Cross Price Elasticity
 
 
   

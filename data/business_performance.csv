@@ -1,12 +1,20 @@
-name,faturamento_atual,faturamento_reducao,perda_faturamento,faturamento_novo,variacao_faturamento,variacao_percentual
-BOOM 2 Wireless Bluetooth Speaker - Indigo,3032.88,2729.59,-1479.49,1250.1,-1782.78,-58.78
-"DreamWave - Tremor Portable Bluetooth Speaker - Green,Black",4355.72,3920.15,20066.66,23986.81,19631.09,450.7
-FUGOO - Sport XL Portable Bluetooth Speaker - Black/White,1749.85,1574.86,-90.19,1484.67,-265.18,-15.15
-Get Up Stand Bluetooth Home Audio System,3344.03,3009.63,-4731.59,-1721.96,-5065.99,-151.49
-JBL Flip 3 Splashproof Portable Bluetooth Speaker (Teal),991.16,892.04,-1821.3,-929.26,-1920.42,-193.75
-"Monster SuperStar BackFloat High-Definition Bluetooth Speaker, Neon Green",719.72,647.75,-603437.24,-602789.49,-603509.21,-83853.33
-SRS-XB2 Portable Bluetooth Wireless Speaker (Blue),913.37,822.03,-1806.39,-984.36,-1897.73,-207.77
-SRS-XB40 Bluetooth Speaker (Black),5067.18,4560.46,-1388.84,3171.62,-1895.56,-37.41
-SRS-XB40 Bluetooth Speaker (Blue),4138.96,3725.06,-1107.4,2617.66,-1521.3,-36.76
-SiriusXM SXSD2 Portable Speaker Dock Audio System for Dock and Play Radios (Black),1725.83,1553.25,-621.98,931.27,-794.56,-46.04
-iPL24 FM Clock Radio with Lightning Dock and USB Port (Gunmetal),951.25,856.12,-464.07,392.05,-559.2,-58.79
+name,price_elasticity,operacao,antigo_total,novo_total,delt_gain,delt_gain_%,delt_demanda,total
+BOOM 2 Wireless Bluetooth Speaker - Indigo,4.58,desconto,131.87,211.51,79.64,60.39,0.62,total
+"DreamWave - Tremor Portable Bluetooth Speaker - Green,Black",61.19,desconto,189.38,1670.64,1481.26,782.16,6.12,total
+ECOXGEAR ECOXBT Rugged and Waterproof Wireless Bluetooth Speaker (Orange),7.34,desconto,61.88,121.02,59.14,95.57,1.13,total
+FUGOO - Sport XL Portable Bluetooth Speaker - Black/White,9.43,desconto,76.08,169.07,92.99,122.23,0.42,total
+Get Up Stand Bluetooth Home Audio System,5.72,desconto,145.39,254.34,108.95,74.94,0.64,total
+House of Marley,3.86,desconto,99.3,150.15,50.85,51.21,0.47,total
+JBL Clip2 Portable Speaker,4.34,desconto,227.03,357.19,130.16,57.33,3.37,total
+JBL Flip 3 Splashproof Portable Bluetooth Speaker (Teal),10.42,desconto,43.1,101.21,58.11,134.83,0.92,total
+Outdoor Tech Buckshot Pro Bluetooth Speaker,5.59,desconto,102.75,178.03,75.28,73.27,1.81,total
+"Russound - Acclaim 5 Series 6-1/2 Indoor/Outdoor Speaker (Each) - White""",0.9,desconto,103.88,93.07,-10.81,-10.41,0.04,total
+SRS-XB2 Portable Bluetooth Wireless Speaker (Blue),11.97,desconto,39.71,101.11,61.4,154.62,0.95,total
+SRS-XB40 Bluetooth Speaker (Black),6.95,desconto,220.31,419.94,199.63,90.61,1.13,total
+SRS-XB40 Bluetooth Speaker (Blue),7.03,desconto,179.96,344.85,164.89,91.63,0.93,total
+SiriusXM SXSD2 Portable Speaker Dock Audio System for Dock and Play Radios (Black),6.0,desconto,75.04,133.94,58.9,78.49,0.72,total
+Sony SRSXB3/BLK Portable Wireless Speaker with Bluetooth (Black),2.64,desconto,129.2,175.28,46.08,35.67,0.54,total
+Sony Ultra-Portable Bluetooth Speaker,2.33,desconto,63.16,83.19,20.03,31.71,0.55,total
+Tough Portable Bluetooth Speaker (Black and Silver),2.36,desconto,46.76,61.77,15.01,32.1,0.17,total
+iLive - ISBW216 Wireless Gnome Outdoor Speaker - Multi,5.36,desconto,22.59,38.48,15.89,70.34,0.65,total
+iPL24 FM Clock Radio with Lightning Dock and USB Port (Gunmetal),4.58,desconto,41.36,66.34,24.98,60.4,0.54,total

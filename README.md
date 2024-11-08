@@ -1,6 +1,5 @@
  
-
-groups](imagem/Ecommerce-Website.jpg) 
+ 
 <p align="center"> <img src="imagem/Ecommerce-Website.jpg" alt="Analyzing customer groups"> </p>
 Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billionaire365.com/2019/02/25/what-is-an-ecommerce-website/)
  das empresas Amazon, Bestbuy, barcodable , bhphotovideo, ebay, kmart e Walmart.
@@ -261,8 +260,11 @@ A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Blue
  								Imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo
 ![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/cross_price_elasticity.jpg) 
 
-
-
+### 4.3.1 Interpretação
+* 0 ou próximo deste valor significa que os produtos não a relação
+* > 0 Quando a elasticidade-preço cruzada é positiva, isso indica que os produtos x e y são substitutos. Em outras palavras, o aumento o preço y leva a um aumento na quantidade demandada de x.
+* < 0 Quando a elasticidade-preço cruzada é negativa, isso indica que os produtos x e y são complementares. Deste modo, ao aumentar o preço de x leva a uma diminuição na quantidade damandada de y.
+*   
 ## 5. Conclusão 
 
   

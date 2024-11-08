@@ -227,10 +227,40 @@ Como resultado para o negócio foram criados:
   
 
  ## 4.2 Business Performance
- ## 4.3 Cross Price Elasticity
+ 
+ ### 4.3 Simulação de aumento
+ O aumento nos preços dos produtos em 15% sem analisar a elasticidade do preço da demanda, gerou o seguinte resultado na imagem - "Situação de aumento, resultado total". E ainda na imagem abaixo desta, imagem - "Situação de aumento, resultado detalhado." 
+ 
+								Imagem - Situação de aumento, resultado total.
+![Situação de aumento em 15%, resultado total](imagem/total_aumento.jpg) 
 
+
+								Imagem - Situação de aumento, resultado detalhado.
+![Situação de aumento, resultado detalhado](imagem/total_aumento.jpg) 
+
+ ### 4.4 Simulação de desconto
+ O desconto de 15% com a análise da elasticidade do preço da demanda, gerou o seguinte resultado na imagem 
 
   
+								Imagem - Situação de aumento, resultado total.
+![Situação de desconto em 15%, resultado total](imagem/total_desconto.jpg) 
+
+
+								Imagem - Situação de aumento, resultado detalhado.
+![Situação de desconto, resultado detalhado](imagem/total_desconto.jpg) 
+ ## 4.3 Cross Price Elasticity
+A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Bluetooth Speaker - Indigo, como mostra a imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo. Além disso, a imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo, mostra o resultado do cross Price que nos diz se existe uma relação entre os produtos.
+![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo]   
+
+								Imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo
+![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/boom2.jpg) 
+
+
+
+ 								Imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo
+![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/cross_price_elasticit.jpg) 
+
+
 
 ## 5. Conclusão 
 

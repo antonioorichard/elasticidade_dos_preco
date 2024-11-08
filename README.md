@@ -236,7 +236,7 @@ Como resultado para o negócio foram criados:
 
 
 								Imagem - Situação de aumento, resultado detalhado.
-![Situação de aumento, resultado detalhado](imagem/total_aumento.jpg) 
+![Situação de aumento, resultado detalhado](imagem/aumento_promo.jpg) 
 
  ### 4.4 Simulação de desconto
  O desconto de 15% com a análise da elasticidade do preço da demanda, gerou o seguinte resultado na imagem 
@@ -247,7 +247,7 @@ Como resultado para o negócio foram criados:
 
 
 								Imagem - Situação de aumento, resultado detalhado.
-![Situação de desconto, resultado detalhado](imagem/total_desconto.jpg) 
+![Situação de desconto, resultado detalhado](imagem/desconto_promo.jpg) 
  ## 4.3 Cross Price Elasticity
 A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Bluetooth Speaker - Indigo, como mostra a imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo. Além disso, a imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo, mostra o resultado do cross Price que nos diz se existe uma relação entre os produtos.
 ![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo]   
@@ -258,7 +258,7 @@ A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Blue
 
 
  								Imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo
-![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/cross_price_elasticit.jpg) 
+![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/cross_price_elasticity.jpg) 
 
 
 

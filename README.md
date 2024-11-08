@@ -1,7 +1,7 @@
  
 
-![Analyzing customer groups](imagem/Ecommerce-Website.jpg) 
-
+groups](imagem/Ecommerce-Website.jpg) 
+<p align="center"> <img src="imagem/Ecommerce-Website.jpg" alt="Analyzing customer groups"> </p>
 Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billionaire365.com/2019/02/25/what-is-an-ecommerce-website/)
  das empresas Amazon, Bestbuy, barcodable , bhphotovideo, ebay, kmart e Walmart.
 # 0 Resumo sobre o projeto
@@ -209,8 +209,7 @@ Quais ferramentas serão usadas no processo?
 
   
 								Imagem - Resultado
-![Resultado](imagem/df_elasticity_resultado.jpg) 
-
+<p align="center"> <img src="imagem/df_elasticity_resultado.jpg" alt="Resultado"> </p>
 
   
 
@@ -232,23 +231,25 @@ Como resultado para o negócio foram criados:
  O aumento nos preços dos produtos em 15% sem analisar a elasticidade do preço da demanda, gerou o seguinte resultado na imagem - "Situação de aumento, resultado total". E ainda na imagem abaixo desta, imagem - "Situação de aumento, resultado detalhado." 
  
 								Imagem - Situação de aumento, resultado total.
-![Situação de aumento em 15%, resultado total](imagem/total_aumento.jpg) 
+<p align="center"> <img src="imagem/total_aumento.jpg" alt="Situação de aumento em 15%, resultado total"> </p>
 
 
 								Imagem - Situação de aumento, resultado detalhado.
-![Situação de aumento, resultado detalhado](imagem/aumento_promo.jpg) 
+<p align="center"> <img src="imagem/aumento_promo.jpg" alt="Situação de aumento, resultado detalhado"> </p>
+
 
  ### 4.4 Simulação de desconto
  O desconto de 15% com a análise da elasticidade do preço da demanda, gerou o seguinte resultado na imagem 
 
   
-								Imagem - Situação de aumento, resultado total.
-![Situação de desconto em 15%, resultado total](imagem/total_desconto.jpg) 
+								Imagem - Situação de aumento, resultado total. 
+
+<p align="center"> <img src="imagem/total_desconto.jpg" alt="Situação de desconto em 15%, resultado total"> </p>
 
 
 								Imagem - Situação de aumento, resultado detalhado.
-![Situação de desconto, resultado detalhado](imagem/inteligente_promo.jpg) 
-<p align="center"> <img src="imagem/inteligente_promo.jpg" alt="Situação de desconto, resultado detalhad">
+ 
+<p align="center"> <img src="imagem/inteligente_promo.jpg" alt="Situação de desconto, resultado detalhado"> </p>
 
  ## 4.3 Cross Price Elasticity
 A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Bluetooth Speaker - Indigo, como mostra a imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo. Além disso, a imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo, mostra o resultado do cross Price que nos diz se existe uma relação entre os produtos.

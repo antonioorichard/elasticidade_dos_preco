@@ -101,7 +101,7 @@ Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billi
 
 ### 1.1 Problema 
 
-Uma empresa pretende alterar os preços dos produtos vendidos, mas tem receio dessa alteração impactar na demanda desses produtos e por consequência no faturamento. Essa demanda foi submetida para você e como analista/cientista de dados precisa determinar a elasticidade dos preços usando a metodologia científica embasado nos dados dos preços dos produtos vendidos pela empresa.
+Uma empresa pretende alterar os preços dos produtos vendidos, mas tem receio dessa alteração impactar na demanda desses produtos e por consequência no faturamento. Essa demanda foi submetida para mim e como analista/cientista de dados preciso determinar a elasticidade dos preços usando a metodologia científica embasado nos dados dos preços dos produtos vendidos pela empresa.
 
   
 
@@ -128,12 +128,16 @@ Produto de dados solicitado:
 ## 2. Premissas de negócio 
 
   
-
+### 2.1 Entrega
 - Todos os produtos de dados entregues devem ser acessíveis via internet.
+- O planejamento da solução será validado com os times de negócio, visando garantir que as soluções desenvolvidas sejam úteis na sua tomada de decisão.
+### 2.2 Validação estatística
 
-O planejamento da solução será validado com os times de negócio, visando garantir que as soluções desenvolvidas sejam úteis na sua tomada de decisão.
-
-Foram filtrados os resultados da elasticidade do preço para somente produtos com uma p-value estatística menor igual a 5%.
+#### 2.1 R² ou R-squared
+* Tende a 1 quando o modelo trabalha com somente um produto.  
+* Vária de 0.13 a 0.50 quando com vários produtos.
+#### 2.2 p-value
+Foram filtrados os resultados da elasticidade do preço para somente produtos com uma p-value estatística menor a 15%.
 
 
   

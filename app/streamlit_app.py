@@ -46,14 +46,14 @@ with tab1:
             xmin      = 0,
             xmax      = df_elasticity["price_elasticity"], 
             alpha     = 0.5, 
-            linewidth = 3 ,
+            linewidth = 10 ,
         )
         for name, p in zip(df_elasticity["name"], df_elasticity["ranking"]):
             ax.text(4, p, name)
 
         for x, y, s in zip(df_elasticity["price_elasticity"], df_elasticity["ranking"], df_elasticity["price_elasticity"]):
             ax.text(
-                x, 
+                x + 22 if ( x < 20)  else x - 0.5, 
                 y, 
                 round(s, 2), 
                 horizontalalignment = "right" if x < 0 else "left",
@@ -61,10 +61,30 @@ with tab1:
                 fontdict            = { "color": "red" if x < 0 else "green", "size" :10}
                 
                     )
-            plt.gca().set( ylabel = "Ranking Number", xlabel = "Price Elasticity")
-            plt.title("Price Elasticity")
-            ax.grid(linestyle = "--")
-            st.pyplot(fig)
+        plt.gca().set( ylabel = "Ranking Number", xlabel = "Price Elasticity")
+        plt.title("Price Elasticity")
+        ax.grid(linestyle = "--")
+        st.pyplot(fig)
+
+
+        plt.figure(figsize=(12, 6))
+        ax = sns.barplot(x='name', y='price_elasticity', data=dfe)
+
+        # Adicionar os valores nas barras
+        for index, row in dfe.iterrows():
+            ax.text(
+                index, 
+                row.price_elasticity, 
+                round(row.price_elasticity, 2), 
+                color='black', 
+                ha="center"
+            )
+        
+        plt.xticks(rotation=60)
+        plt.xlabel('Name')
+        plt.ylabel('Price Elasticity')
+        plt.title('Price Elasticity of Different Products')
+        plt.show()
     
     with tab5: 
         # Apresentar elasticidade de preços datagrame

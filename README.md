@@ -226,7 +226,7 @@ Como resultado para o negócio foram criados:
 
  ## 4.2 Business Performance
  
- ### 4.3 Simulação de aumento
+ ### 4.2.1 Simulação de aumento
  O aumento nos preços dos produtos em 15% sem analisar a elasticidade do preço da demanda, gerou o seguinte resultado na imagem - "Situação de aumento, resultado total". E ainda na imagem abaixo desta, imagem - "Situação de aumento, resultado detalhado." 
  
 								Imagem - Situação de aumento, resultado total.
@@ -237,7 +237,7 @@ Como resultado para o negócio foram criados:
 <p align="center"> <img src="imagem/aumento_promo.jpg" alt="Situação de aumento, resultado detalhado"> </p>
 
 
- ### 4.4 Simulação de desconto
+ ### 4.2.2 Simulação de desconto
  O desconto de 15% com a análise da elasticidade do preço da demanda, gerou o seguinte resultado na imagem 
 
   

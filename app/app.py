@@ -72,7 +72,7 @@ with tab1:
         st.pyplot(fig)
 # outro gráfico
         plt.figure(figsize=(12, 6))
-        ax = sns.barplot(x='name', y='price_elasticity', data=dfe)
+        ax = sns.barplot(x='name', y='price_elasticity', data=df_elasticity)
 
         # Adicionar os valores nas barras
         for index, row in dfe.iterrows():

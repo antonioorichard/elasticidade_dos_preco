@@ -65,10 +65,10 @@ with tab1:
                 fontdict            = { "color": "red" if x < 0 else "green", "size" :10}
                 
                     )
-            plt.gca().set( ylabel = "Ranking Number", xlabel = "Price Elasticity")
-            plt.title("Price Elasticity")
-            ax.grid(linestyle = "--")
-            st.pyplot(fig)
+        plt.gca().set( ylabel = "Ranking Number", xlabel = "Price Elasticity")
+        plt.title("Price Elasticity")
+        ax.grid(linestyle = "--")
+        st.pyplot(fig)
     
     with tab5: 
         # Apresentar elasticidade de preços datagrame

@@ -29,7 +29,13 @@ tab1, tab2, tab3 = st.tabs(
                     "Elasticidade Cruzada de Preços", 
     ])
 
+# Função para truncar os nomes
+def truncate_name(name):
+    return ' '.join(name.split()[:4])
 
+# Aplicar a função para truncar os nomes
+dfe=df_elasticity.copy()
+dfe['name'] = dfe['name'].apply(truncate_name)
 
 
 with tab1:
@@ -53,7 +59,7 @@ with tab1:
             alpha     = 0.5, 
             linewidth = 10 ,
         )
-        for name, p in zip(df_elasticity["name"], df_elasticity["ranking"]):
+        for name, p in zip(dfe["name"], df_elasticity["ranking"]):
             ax.text(4, p, name)
 
         for x, y, s in zip(df_elasticity["price_elasticity"], df_elasticity["ranking"], df_elasticity["price_elasticity"]):
@@ -72,7 +78,7 @@ with tab1:
         st.pyplot(fig)
 # outro gráfico
         plt.figure(figsize=(12, 6))
-        ax = sns.barplot(x='name', y='price_elasticity', data=df_elasticity)
+        ax = sns.barplot(x='name', y='price_elasticity', data=dfe)
 
         # Adicionar os valores nas barras
         for index, row in dfe.iterrows():

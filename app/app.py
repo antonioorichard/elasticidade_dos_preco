@@ -5,6 +5,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 import streamlit as st
+import seaborn as sns
 
 # code
 home_path  = os.getcwd()
@@ -50,14 +51,14 @@ with tab1:
             xmin      = 0,
             xmax      = df_elasticity["price_elasticity"], 
             alpha     = 0.5, 
-            linewidth = 3 ,
+            linewidth = 10 ,
         )
         for name, p in zip(df_elasticity["name"], df_elasticity["ranking"]):
             ax.text(4, p, name)
 
         for x, y, s in zip(df_elasticity["price_elasticity"], df_elasticity["ranking"], df_elasticity["price_elasticity"]):
             ax.text(
-                x, 
+                x + 22 if ( x < 20)  else x - 0.5, 
                 y, 
                 round(s, 2), 
                 horizontalalignment = "right" if x < 0 else "left",

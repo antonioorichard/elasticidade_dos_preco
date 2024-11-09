@@ -69,6 +69,25 @@ with tab1:
         plt.title("Price Elasticity")
         ax.grid(linestyle = "--")
         st.pyplot(fig)
+# outro gráfico
+        plt.figure(figsize=(12, 6))
+        ax = sns.barplot(x='name', y='price_elasticity', data=dfe)
+
+        # Adicionar os valores nas barras
+        for index, row in dfe.iterrows():
+            ax.text(
+                index, 
+                row.price_elasticity, 
+                round(row.price_elasticity, 2), 
+                color='black', 
+                ha="center"
+            )
+        
+        plt.xticks(rotation=60)
+        plt.xlabel('Name')
+        plt.ylabel('Price Elasticity')
+        plt.title('Price Elasticity of Different Products')
+        plt.show()
     
     with tab5: 
         # Apresentar elasticidade de preços datagrame

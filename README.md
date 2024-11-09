@@ -270,7 +270,7 @@ A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Blue
 
   
 
-* O objetivo foi alcançado, dado que o produto de dados foram gerados com sucesso. O funcionario pode utilizar a ferramenta criado para fazer a elasticidade de preço. 
+* O objetivo foi alcançado, dado que o produto de dados foram gerados com sucesso. O funcionário pode utilizar a ferramenta criado para fazer a elasticidade de preço. 
 
   
 

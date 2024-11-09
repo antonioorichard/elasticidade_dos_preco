@@ -297,9 +297,9 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
 * Deploy do modelo. 
 
-* Criar um botão com api do modelo de Machine Learning no google sheets para que resultado seja emitido nele com as médias de característica dos clientes. 
+* Criar um botão com api do modelo de Machine Learning no google sheets para que resultado seja emitido por lá ao carregar um novo dataset. 
 
-* Deixar um dashbord no streamlit ou metabase com informações dos dados. 
+* Fazer um filtro no dashbord hospedado no streamlit ou metabase em categorias. 
 
   
 

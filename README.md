@@ -1,8 +1,8 @@
  
  
 <p align="center"> <img src="imagem/Ecommerce-Website.jpg" alt="Analyzing customer groups"> </p>
-Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billionaire365.com/2019/02/25/what-is-an-ecommerce-website/)
- das empresas Amazon, Bestbuy, barcodable , bhphotovideo, ebay, kmart e Walmart.
+
+Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billionaire365.com/2019/02/25/what-is-an-ecommerce-website/) das empresas Amazon, Bestbuy, barcodable , bhphotovideo, ebay, kmart e Walmart.
 # 0 Resumo sobre o projeto
 
 ## 0.1 Modelo de Negócio

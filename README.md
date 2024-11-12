@@ -229,7 +229,7 @@ Como resultado para o negócio foram criados:
  ### 4.2.1 Simulação de aumento
  O aumento nos preços dos produtos em 15% sem analisar a elasticidade do preço da demanda, gerou o seguinte resultado na imagem - "Situação de aumento, resultado total". E ainda na imagem abaixo desta, imagem - "Situação de aumento, resultado detalhado." 
  
-								Imagem - Situação de aumento, resultado total.
+##### Imagem - <p align="center"> < Situação de aumento, resultado total.> </p>
 <p align="center"> <img src="imagem/total_aumento.jpg" alt="Situação de aumento em 15%, resultado total"> </p>
 
 

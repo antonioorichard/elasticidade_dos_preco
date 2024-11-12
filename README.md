@@ -229,11 +229,11 @@ Como resultado para o negócio foram criados:
  ### 4.2.1 Simulação de aumento
  O aumento nos preços dos produtos em 15% sem analisar a elasticidade do preço da demanda, gerou o seguinte resultado na imagem - "Situação de aumento, resultado total". E ainda na imagem abaixo desta, imagem - "Situação de aumento, resultado detalhado." 
  
-##### Imagem - <p align="center"> < Situação de aumento, resultado total.> </p>
+#### <p align="center"> Imagem - Situação de aumento, resultado total </p>
 <p align="center"> <img src="imagem/total_aumento.jpg" alt="Situação de aumento em 15%, resultado total"> </p>
 
 
-								Imagem - Situação de aumento, resultado detalhado.
+####							<p align = "center"> Imagem - Situação de aumento, resultado detalhado. </p>
 <p align="center"> <img src="imagem/aumento_promo.jpg" alt="Situação de aumento, resultado detalhado"> </p>
 
 
@@ -241,23 +241,22 @@ Como resultado para o negócio foram criados:
  O desconto de 15% com a análise da elasticidade do preço da demanda, gerou o seguinte resultado na imagem 
 
   
-								Imagem - Situação de aumento, resultado total. 
-
+#### 							<p align = "center">	Imagem - Situação de aumento, resultado total. </p> 
 <p align="center"> <img src="imagem/total_desconto.jpg" alt="Situação de desconto em 15%, resultado total"> </p>
 
 
-								Imagem - Situação de aumento, resultado detalhado.
- 
+####                                                    <p align ="center"> Imagem - Situação de aumento, resultado detalhado. </p>
+
 <p align="center"> <img src="imagem/inteligente_promo.jpg" alt="Situação de desconto, resultado detalhado"> </p>
 
  ## 4.3 Cross Price Elasticity
 A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Bluetooth Speaker - Indigo, como mostra a imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo. Além disso, a imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo, mostra o resultado do cross Price que nos diz se existe uma relação entre os produtos.
   
 
-								Imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo
+####								<p align = "center"> Imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo </p>
 <p align="center"> <img src="imagem/boom2.jpg" alt="Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo"> </p>
 
- 								Imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo
+#### 								<p align = "center"> Imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo </p>
 ![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/cross_price_elasticity.jpg) 
 
 ### 4.3.1 Interpretação

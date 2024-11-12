@@ -207,7 +207,7 @@ Quais ferramentas serão usadas no processo?
 ### 4.1 Resultados 
 
   
-								Imagem - Resultado
+####  <p align = "center"> Imagem - Resultado.	</p>		
 <p align="center"> <img src="imagem/df_elasticity_resultado.jpg" alt="Resultado"> </p>
 
   

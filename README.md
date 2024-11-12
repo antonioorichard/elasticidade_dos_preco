@@ -344,8 +344,8 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
 **Python 3.12.3** 
 
-#### Contatos
-[LinkedIn](www.linkedin.com/in/antonio-richard-hc)
-[Portfolio](https://antonioorichard.github.io/portfolio_projetos/)
+#### Contatos:
+* [LinkedIn](www.linkedin.com/in/antonio-richard-hc)
+* [Portfolio](https://antonioorichard.github.io/portfolio_projetos/)
 
 

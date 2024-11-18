@@ -238,26 +238,17 @@ Como resultado para o negócio foram criados:
 
 
  ### 4.2.2 Simulação com a elasticidade de preço
- O desconto de 15%  para produtos com a elasticidade do preço da demanda maior do que 1, e ainda aumento de 15% para os produtos com a elasticidade de preço da demanda menor do que 1. Os resultados estão nas imagens abaixo "Levando em conta a elasticidade, resultado total" e "Levando em conta a elasticidade, resultado detalhado": 
+ O desconto de 15%  para produtos com a elasticidade do preço da demanda maior do que 1, e ainda aumento de 15% para os produtos com a elasticidade de preço da demanda menor do que 1. Os resultados estão nas imagens abaixo "[Levando em conta a elasticidade, resultado total](#resultado-total)" e "[Levando em conta a elasticidade, resultado detalhado](#resultado-detalhado)": 
 
   
 #### 							<p align = "center">	Imagem - Levando em conta a elasticidade, resultado total. </p> 
-<p align="center"> <img src="imagem/total_desconto.jpg" alt="Situação de desconto em 15%, resultado total"> </p>
+<p id="resultado-total" align="center"> <img src="imagem/total_desconto.jpg" alt="Situação de desconto em 15%, resultado total"> </p>
 
 
 ####                                                    <p align ="center"> Imagem - Levando em conta a elasticidade, resultado detalhado. </p>
 
-<p align="center"> <img src="imagem/inteligente_promo.jpg" alt="Situação de desconto, resultado detalhado"> </p>
+<p id="resultado-detalhado" align="center"> <img src="imagem/inteligente_promo.jpg" alt="Situação de desconto, resultado detalhado"> </p>
 
-Os resultados estão nas imagens abaixo [Levando em conta a elasticidade, resultado total](#resultado-total) e [Levando em conta a elasticidade, resultado detalhado](#resultado-detalhado):
-
-<p id="resultado-total">
-  <img src="imagem/inteligente_promo.jpg" alt="Resultado Total">
-</p>
-
-<p id="resultado-detalhado">
-  <img src="imagem/resultado-detalhado.jpg" alt="Resultado Detalhado">
-</p>
 
 
 

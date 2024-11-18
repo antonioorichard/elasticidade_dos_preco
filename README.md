@@ -254,13 +254,13 @@ Como resultado para o negócio foram criados:
 
 
  ## 4.3 Cross Price Elasticity
-A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Bluetooth Speaker - Indigo, como mostra a imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo. Além disso, a imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo, mostra o resultado do cross Price que nos diz se existe uma relação entre os produtos.
+A seguir o [resultado](#resultado) do Cross Price dos produtos entre sí, entrele eles o BOOM 2 Wireless Bluetooth Speaker - Indigo, como mostra a imagem - [Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](#boom2). Além disso, a imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo, mostra o resultado do cross Price que nos diz se existe uma relação entre os produtos.
   
 
-####								<p align = "center"> Imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo </p>
+####								<p id= "boom2" align = "center"> Imagem - BOOM 2 Wireless Bluetooth Speaker - Indigo </p>
 <p align="center"> <img src="imagem/boom2.jpg" alt="Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo"> </p>
 
-#### 								<p align = "center"> Imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo </p>
+#### 								<p id="resultado" align = "center"> Imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo </p>
 ![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/cross_price_elasticity.jpg) 
 
 ### 4.3.1 Interpretação

@@ -226,7 +226,7 @@ Como resultado para o negócio foram criados:
 
  ## 4.2 Business Performance
  
- ### 4.2.1 Simulação de aumento
+ ### 4.2.1 Simulação sem levar em conta a elasticidade de preço - situação de aumento
  O aumento nos preços dos produtos em 15% sem analisar a elasticidade do preço da demanda, gerou o seguinte resultado na imagem - "Situação de aumento, resultado total". E ainda na imagem abaixo desta, imagem - "Situação de aumento, resultado detalhado." 
  
 #### <p align="center"> Imagem - Situação de aumento, resultado total </p>
@@ -237,17 +237,30 @@ Como resultado para o negócio foram criados:
 <p align="center"> <img src="imagem/aumento_promo.jpg" alt="Situação de aumento, resultado detalhado"> </p>
 
 
- ### 4.2.2 Simulação de desconto
- O desconto de 15% com a análise da elasticidade do preço da demanda, gerou o seguinte resultado na imagem 
+ ### 4.2.2 Simulação com a elasticidade de preço
+ O desconto de 15%  para produtos com a elasticidade do preço da demanda maior do que 1, e ainda aumento de 15% para os produtos com a elasticidade de preço da demanda menor do que 1. Os resultados estão nas imagens abaixo "Levando em conta a elasticidade, resultado total" e "Levando em conta a elasticidade, resultado detalhado": 
 
   
-#### 							<p align = "center">	Imagem - Situação de aumento, resultado total. </p> 
+#### 							<p align = "center">	Imagem - Levando em conta a elasticidade, resultado total. </p> 
 <p align="center"> <img src="imagem/total_desconto.jpg" alt="Situação de desconto em 15%, resultado total"> </p>
 
 
-####                                                    <p align ="center"> Imagem - Situação de aumento, resultado detalhado. </p>
+####                                                    <p align ="center"> Imagem - Levando em conta a elasticidade, resultado detalhado. </p>
 
 <p align="center"> <img src="imagem/inteligente_promo.jpg" alt="Situação de desconto, resultado detalhado"> </p>
+
+Os resultados estão nas imagens abaixo [Levando em conta a elasticidade, resultado total](#resultado-total) e [Levando em conta a elasticidade, resultado detalhado](#resultado-detalhado):
+
+<p id="resultado-total">
+  <img src="imagem/inteligente_promo.jpg" alt="Resultado Total">
+</p>
+
+<p id="resultado-detalhado">
+  <img src="imagem/resultado-detalhado.jpg" alt="Resultado Detalhado">
+</p>
+
+
+
 
  ## 4.3 Cross Price Elasticity
 A seguir o resultado do Cross Price dos demais produtos com BOOM 2 Wireless Bluetooth Speaker - Indigo, como mostra a imagem - Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo. Além disso, a imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo, mostra o resultado do cross Price que nos diz se existe uma relação entre os produtos.

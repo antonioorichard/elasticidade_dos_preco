@@ -80,7 +80,6 @@ Este é um projeto fictício. Com dados públicos dos [E-commerce](https://billi
 ## 0.6 Impacto da solução
 
 * Personalizar a experiência ou adptar
-  * Comunição.
   * Ofertas.
   * Recomendação.
 * Segmentação de Marketing mais eficientes.

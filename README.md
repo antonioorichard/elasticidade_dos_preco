@@ -233,7 +233,7 @@ Como resultado para o negócio foram criados:
 
 
 ####							<p align = "center"> Imagem - Situação de aumento, resultado detalhado. </p>
-<p align="center"> <img src="imagem/simulation_for_median_with_zero/total_aumento.jpg" alt="Situação de aumento, resultado detalhado"> </p>
+<p align="center"> <img src="imagem/simulation_for_median_with_zero/aumento_detalhado.jpg" alt="Situação de aumento, resultado detalhado"> </p>
 
 
  ### 4.2.2 Simulação com a elasticidade de preço
@@ -246,7 +246,7 @@ Como resultado para o negócio foram criados:
 
 ####                                                    <p align ="center"> Imagem - Levando em conta a elasticidade, resultado detalhado. </p>
 
-<p id="resultado-detalhado" align="center"> <img src="imagem/inteligente_promo_detalhada.jpg" alt="Situação de desconto, resultado detalhado"> </p>
+<p id="resultado-detalhado" align="center"> <img src="imagem/simulation_for_median_with_zero/inteligente_promo_detalhada.jpg" alt="Situação de desconto, resultado detalhado"> </p>
 
 
 

@@ -229,11 +229,11 @@ Como resultado para o negócio foram criados:
  O aumento nos preços dos produtos em 15% sem analisar a elasticidade do preço da demanda, gerou o seguinte resultado na imagem - "Situação de aumento, resultado total". E ainda na imagem abaixo desta, imagem - "Situação de aumento, resultado detalhado." 
  
 #### <p align="center"> Imagem - Situação de aumento, resultado total </p>
-<p id = "resultado_situação_de_aumento" align="center"> <img src="imagem/total_aumento.jpg" alt="Situação de aumento em 15%, resultado total"> </p>
+<p id = "resultado_situação_de_aumento" align="center"> <img src="imagem/simulation_for_median_with_zero/total_aumento.jpg" alt="Situação de aumento em 15%, resultado total"> </p>
 
 
 ####							<p align = "center"> Imagem - Situação de aumento, resultado detalhado. </p>
-<p align="center"> <img src="imagem/aumento_promo.jpg" alt="Situação de aumento, resultado detalhado"> </p>
+<p align="center"> <img src="imagem/simulation_for_median_with_zero/total_aumento.jpg" alt="Situação de aumento, resultado detalhado"> </p>
 
 
  ### 4.2.2 Simulação com a elasticidade de preço
@@ -241,12 +241,12 @@ Como resultado para o negócio foram criados:
 
   
 #### 							<p align = "center">	Imagem - Levando em conta a elasticidade, resultado total. </p> 
-<p id="resultado-total" align="center"> <img src="imagem/total_desconto.jpg" alt="Situação de desconto em 15%, resultado total"> </p>
+<p id="resultado-total" align="center"> <img src="imagem/simulation_for_median_with_zero/total_inteligente_promo.jpg" alt="Situação de desconto em 15% na elasticidade maior que 1 e aumento para elasticidade menor que 1, resultado total"> </p>
 
 
 ####                                                    <p align ="center"> Imagem - Levando em conta a elasticidade, resultado detalhado. </p>
 
-<p id="resultado-detalhado" align="center"> <img src="imagem/inteligente_promo.jpg" alt="Situação de desconto, resultado detalhado"> </p>
+<p id="resultado-detalhado" align="center"> <img src="imagem/inteligente_promo_detalhada.jpg" alt="Situação de desconto, resultado detalhado"> </p>
 
 
 

@@ -262,6 +262,15 @@ A seguir o [resultado do Cross Price](#resultado) dos produtos entre sí, entre 
 #### 								<p id="resultado" align = "center"> Imagem - Resultado de cross price dos produtos da categória speaker</p>
 ![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/cross_price_elasticity_sem_j.jpg) 
 
+
+
+
+
+#### 								<p id="resultado" align = "center"> Imagem - Resultado de cross price dos produtos da categória speaker, imagem</p>
+![Situação de cross price cruzado_em_imagem](imagem/cross_price_elasticity_picture.jpg) 
+
+
+
 ### 4.3.1 Interpretação
 
 * 0 ou próximo deste valor significa que os produtos não a relação.

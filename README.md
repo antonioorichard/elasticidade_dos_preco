@@ -320,7 +320,49 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
 * O Dataset foi obtido no curso de Ciência de dados da [Comunidade DS](https://alunos.comunidadeds.com/auth/login?redirect=%2F%3Futm_source%3Dinstall). 
 
-  
+
+## 8 O que este trabalho difere dos demais do curso da Comunidade DS?
+	
+	Este trabalho seguiu inicialmente o projeto original passo a passo conforme o curso da comunidade DS, contudo, o entendimento sobre o assunto não ficou claro, pois falta fundamentação matemática em alguns aspectos, ao reanalisar, o que parecia falta de entendimento ficou evidente para mim que o curso apresenta alguns problemas na lógica de construção, sendo assim, até o momento foi analisado a maneira como substitui os valores NaN's e a simulação do “Business Performance” a qual será debatido a seguir! Além disso, será futuramente feita uma análise mais precisa da fórmula para geração da elasticidade do preço da demanda pelo coeficiente angular e do modo como foi implementada, por último, uma análise na elasticidade de preço cruzada. 
+ 
+### 8.1 Erro no tópico Business Performance 
+
+#### 8.1.1 Equação apresentada
+
+#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+![imagem_1](imagem/questionando_a_equacao/1.jpg) 
+
+
+
+#### 8.1.2 Equação que deveria ser desenvolvida sem o uso do ponto médio
+
+#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+![imagem_1](imagem/questionando_a_equacao/2.jpg)
+
+#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+![imagem_1](imagem/questionando_a_equacao/3.jpg)
+
+#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+![imagem_1](imagem/questionando_a_equacao/4.jpg)
+
+#### 8.1.2.1 Resultado
+
+#### 8.1.3 Pelo método do ponto médio
+
+#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+![imagem_1](imagem/fundamentacao_matematica/ponto_medio1.jpg)
+
+#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+![imagem_1](imagem/fundamentacao_matematica/ponto_medio2.jpg)
+
+#### 8.1.3.1 Resultados
+
+#### 8.1.3.1 Equação alternativa, desenvolvida com o uso do método do ponto médio
+#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+![imagem_1](imagem/fundamentacao_matematica/ponto_medio3.jpg)
+
+#### 8.1.3.1.1 Resultados
+### 8.2  
 
   
 

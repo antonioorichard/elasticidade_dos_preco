@@ -233,7 +233,7 @@ Como resultado para o negócio foram criados:
 
 
 ####							<p align = "center"> Imagem - Situação de aumento, resultado detalhado. </p>
-<p align="center"> <img src="imagem/simulation_for_median_with_zero/aumento_detalhado.jpg" alt="Situação de aumento, resultado detalhado"> </p>
+<p id = "situação_de_aumento_detalhado" align="center"> <img src="imagem/simulation_for_median_with_zero/aumento_detalhado.jpg" alt="Situação de aumento, resultado detalhado"> </p>
 
 
  ### 4.2.2 Simulação com a elasticidade de preço
@@ -246,7 +246,7 @@ Como resultado para o negócio foram criados:
 
 ####                                                    <p align ="center"> Imagem - Levando em conta a elasticidade, resultado detalhado. </p>
 
-<p id="resultado-detalhado" align="center"> <img src="imagem/simulation_for_median_with_zero/inteligente_promo_detalhada.jpg" alt="Situação de desconto, resultado detalhado"> </p>
+<p id="smart_result_detail" align="center"> <img src="imagem/simulation_for_median_with_zero/inteligente_promo_detalhada.jpg" alt="Situação de desconto, resultado detalhado"> </p>
 
 
 
@@ -323,45 +323,52 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
 ## 8 O que este trabalho difere dos demais do curso da Comunidade DS?
 	
-	Este trabalho seguiu inicialmente o projeto original passo a passo conforme o curso da comunidade DS, contudo, o entendimento sobre o assunto não ficou claro, pois falta fundamentação matemática em alguns aspectos, ao reanalisar, o que parecia falta de entendimento ficou evidente para mim que o curso apresenta alguns problemas na lógica de construção, sendo assim, até o momento foi analisado a maneira como substitui os valores NaN's e a simulação do “Business Performance” a qual será debatido a seguir! Além disso, será futuramente feita uma análise mais precisa da fórmula para geração da elasticidade do preço da demanda pelo coeficiente angular e do modo como foi implementada, por último, uma análise na elasticidade de preço cruzada. 
+Este trabalho seguiu inicialmente o projeto original passo a passo conforme o curso da comunidade DS, contudo, o entendimento sobre o assunto não ficou claro, pois falta fundamentação matemática em alguns aspectos, ao reanalisar, o que parecia falta de entendimento ficou evidente para mim que o curso apresenta alguns problemas na lógica de construção, sendo assim, até o momento foi analisado a maneira como substitui os valores NaN's e a simulação do “Business Performance” a qual será debatido a seguir! Além disso, será futuramente feita uma análise mais precisa da fórmula para geração da elasticidade do preço da demanda pelo coeficiente angular e do modo como foi implementada, por último, uma análise na elasticidade de preço cruzada. 
  
 ### 8.1 Erro no tópico Business Performance 
 
 #### 8.1.1 Equação apresentada
 
-#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+#### 								<p id="equação_original" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
 ![imagem_1](imagem/questionando_a_equacao/1.jpg) 
 
 
 
 #### 8.1.2 Equação que deveria ser desenvolvida sem o uso do ponto médio
 
-#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+#### 								<p id="equação_original2" align = "center"> Imagem - Analisando a equação do código no tópico Business Performe do curso Elasticidade de preço da demanda , imagem</p>
 ![imagem_1](imagem/questionando_a_equacao/2.jpg)
 
-#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+#### 								<p id="equação_original3" align = "center"> Imagem - Teste a equação e tirando conclusões, imagem</p>
 ![imagem_1](imagem/questionando_a_equacao/3.jpg)
 
-#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+#### 								<p id="equação_original4" align = "center"> Imagem - Desenvolvimento correto para encontrar a demanda final, imagem</p>
 ![imagem_1](imagem/questionando_a_equacao/4.jpg)
 
 #### 8.1.2.1 Resultado
+A seguir o resultato total e detalhado da [equação final](#equação_original4) no modo inteligente.
 
 #### 8.1.3 Pelo método do ponto médio
 
-#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+#### 								<p id="ponto_medio1" align = "center"> Imagem - Encontrando a equação da demanda final pelo método do ponto médio , imagem</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio1.jpg)
 
-#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+#### 								<p id="ponto_medio2" align = "center"> Imagem - Observando a equação resultante do ponto médio na prática , imagem</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio2.jpg)
 
-#### 8.1.3.1 Resultados
+
+
 
 #### 8.1.3.1 Equação alternativa, desenvolvida com o uso do método do ponto médio
-#### 								<p id="Observando o código da equação do curso" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+
+#### 								<p id="Equação alternativa" align = "center"> Imagem-Equação alternativa com código dos ajustes, imagem</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio3.jpg)
 
-#### 8.1.3.1.1 Resultados
+#### 8.1.3.1.1 Resultados da equação final
+A seguir o resultato total e detalhado da [equação final](#ponto_medio2) no modo inteligente.
+
+#### 8.1.3.1.2 Resultados da equação alternativa
+Os resultados referente a esta equação usando o modo inteligente está disponível em [Imagem - Levando em conta a elasticidade, resultado detalhado.](#smart_result_detail)
 ### 8.2  
 
   

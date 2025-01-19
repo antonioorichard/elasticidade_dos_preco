@@ -228,7 +228,7 @@ Como resultado para o negócio foram criados:
  ### 4.2.1 Simulação sem levar em conta a elasticidade de preço - situação de aumento
  O aumento nos preços dos produtos em 15% sem analisar a elasticidade do preço da demanda, gerou o seguinte resultado na imagem - "Situação de aumento, resultado total". E ainda na imagem abaixo desta, imagem - "Situação de aumento, resultado detalhado." 
  
-#### <p align="center"> Imagem - Situação de aumento, resultado total </p>
+#### <p align="center"> Imagem - Situação de aumento, resultado total. </p>
 <p id = "resultado_situação_de_aumento" align="center"> <img src="imagem/simulation_for_median_with_zero/total_aumento.jpg" alt="Situação de aumento em 15%, resultado total"> </p>
 
 
@@ -256,17 +256,17 @@ Como resultado para o negócio foram criados:
 A seguir o [resultado do Cross Price](#resultado) dos produtos entre sí, entre eles o BOOM 2 Wireless Bluetooth Speaker - Indigo, como mostra a imagem - [Cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](#boom2). Além disso, a imagem - Resultado de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo, mostra o resultado do cross Price que nos diz se existe uma relação entre os produtos.
   
 
-####								<p id= "boom2" align = "center"> Imagem - BOOM 2 Wireless Bluetooth Speaker - Indigo </p>
+####								<p id= "boom2" align = "center"> Imagem - BOOM 2 Wireless Bluetooth Speaker - Indigo. </p>
 <p align="center"> <img src="imagem/boom2.jpg" alt="Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo"> </p>
 
-#### 								<p id="resultado" align = "center"> Imagem - Resultado de cross price dos produtos da categória speaker</p>
+#### 								<p id="resultado" align = "center"> Imagem - Resultado de cross price dos produtos da categória speaker.</p>
 ![Situação de cross price com BOOM 2 Wireless Bluetooth Speaker - Indigo](imagem/cross_price_elasticity_sem_j.jpg) 
 
 
 
 
 
-#### 								<p id="resultado" align = "center"> Imagem - Resultado de cross price dos produtos da categória speaker, imagem</p>
+#### 								<p id="resultado" align = "center"> Imagem - Resultado de cross price dos produtos da categória speaker.</p>
 ![Situação de cross price cruzado_em_imagem](imagem/cross_price_elasticity_picture.jpg) 
 
 
@@ -329,39 +329,50 @@ Este trabalho seguiu inicialmente o projeto original passo a passo conforme o cu
 
 #### 8.1.1 Equação apresentada
 
-#### 								<p id="equação_original" align = "center"> Imagem - Observando e analisando o código da equação do curso , imagem</p>
+#### 								<p id="equação_original" align = "center"> Imagem - Observando e analisando o código da equação do curso.</p>
 ![imagem_1](imagem/questionando_a_equacao/1.jpg) 
 
+#### 8.1.1.1 Resultado da equação apresentada
+
+#### 								<p id="equação_original" align = "center"> Imagem - Observando e analisando o código da equação do curso.</p>
+![imagem_do_resultado_original_novas_colunas](imagem/resultado_original_com_ajuste_de_informacoes_nas_colunas.jpg) 
 
 
 #### 8.1.2 Equação que deveria ser desenvolvida sem o uso do ponto médio
 
-#### 								<p id="equação_original2" align = "center"> Imagem - Analisando a equação do código no tópico Business Performe do curso Elasticidade de preço da demanda , imagem</p>
+#### 								<p id="equação_original2" align = "center"> Imagem - Analisando a equação do código no tópico Business Performe do curso Elasticidade de preço da demanda.</p>
 ![imagem_1](imagem/questionando_a_equacao/2.jpg)
 
 #### 								<p id="equação_original3" align = "center"> Imagem - Teste a equação e tirando conclusões, imagem</p>
 ![imagem_1](imagem/questionando_a_equacao/3.jpg)
 
-#### 								<p id="equação_original4" align = "center"> Imagem - Desenvolvimento correto para encontrar a demanda final, imagem</p>
+#### 								<p id="equação_original4" align = "center"> Imagem - Desenvolvimento correto para encontrar a demanda final.</p>
 ![imagem_1](imagem/questionando_a_equacao/4.jpg)
 
 #### 8.1.2.1 Resultado
 A seguir o resultato total e detalhado da [equação final](#equação_original4) no modo inteligente.
+#### 								<p id="equação_original_resultado" align = "center"> Imagem - Resultado da simulação com equação original  desenvolvida, levando enconta a elasticidade do preço.</p> 
+![imagem_1](imagem/resultado_da_equacao_original_desenvolvida.jpg)
+
 
 #### 8.1.3 Pelo método do ponto médio
 
-#### 								<p id="ponto_medio1" align = "center"> Imagem - Encontrando a equação da demanda final pelo método do ponto médio , imagem</p>
+#### 								<p id="ponto_medio1" align = "center"> Imagem - Encontrando a equação da demanda final pelo método do ponto médio.</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio1.jpg)
 
-#### 								<p id="ponto_medio2" align = "center"> Imagem - Observando a equação resultante do ponto médio na prática , imagem</p>
+#### 								<p id="ponto_medio2" align = "center"> Imagem - Observando a equação resultante do ponto médio na prática.</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio2.jpg)
 
 
+#### 8.1.3.1 Resultados pelo método do ponto médio
+
+#### 								<p id="Equação_ponto_medio" align = "center"> Imagem-Resultado com a equação do ponto médio ajustada para encontra o valor final da demanda, simulação levando em conta a elasticidade.</p>
+![imagem_1](imagem/fundamentacao_matematica/resultado_da_equacao_ponto_medio_desenvolvida.jpg)
 
 
 #### 8.1.3.1 Equação alternativa, desenvolvida com o uso do método do ponto médio
 
-#### 								<p id="Equação alternativa" align = "center"> Imagem-Equação alternativa com código dos ajustes, imagem</p>
+#### 								<p id="Equação alternativa" align = "center"> Imagem-Equação alternativa com código dos ajustes.</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio3.jpg)
 
 #### 8.1.3.1.1 Resultados da equação final
@@ -369,7 +380,7 @@ A seguir o resultato total e detalhado da [equação final](#ponto_medio2) no mo
 
 #### 8.1.3.1.2 Resultados da equação alternativa
 Os resultados referente a esta equação usando o modo inteligente está disponível em [Imagem - Levando em conta a elasticidade, resultado detalhado.](#smart_result_detail)
-### 8.2  
+
 
   
 

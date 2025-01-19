@@ -1,4 +1,5 @@
- 
+**Vídeos**
+Leu o Readme e não entendeu, ou está com preguiça de ler?! Tudo bem, pode assistir às apresentações referentes a este projeto aqui:  🚧 👷‍♂️
  
 <p align="center"> <img src="imagem/Ecommerce-Website.jpg" alt="Analyzing customer groups"> </p>
 
@@ -332,9 +333,11 @@ Este trabalho seguiu inicialmente o projeto original passo a passo conforme o cu
 #### 								<p id="equação_original" align = "center"> Imagem - Observando e analisando o código da equação do curso.</p>
 ![imagem_1](imagem/questionando_a_equacao/1.jpg) 
 
+
 #### 8.1.1.1 Resultado da equação apresentada
 
-#### 								<p id="equação_original" align = "center"> Imagem - Observando e analisando o código da equação do curso.</p>
+
+#### 								<p id="resultado_equação_do_curso" align = "center"> Imagem - Resultados da equação que foi usado no curso da comunidade DS, dentro do simulador que leva em conta a elasticidade de preço da demanda.</p>
 ![imagem_do_resultado_original_novas_colunas](imagem/resultado_original_com_ajuste_de_informacoes_nas_colunas.jpg) 
 
 
@@ -343,7 +346,7 @@ Este trabalho seguiu inicialmente o projeto original passo a passo conforme o cu
 #### 								<p id="equação_original2" align = "center"> Imagem - Analisando a equação do código no tópico Business Performe do curso Elasticidade de preço da demanda.</p>
 ![imagem_1](imagem/questionando_a_equacao/2.jpg)
 
-#### 								<p id="equação_original3" align = "center"> Imagem - Teste a equação e tirando conclusões, imagem</p>
+#### 								<p id="equação_original3" align = "center"> Imagem - Teste a equação e tirando conclusões.</p>
 ![imagem_1](imagem/questionando_a_equacao/3.jpg)
 
 #### 								<p id="equação_original4" align = "center"> Imagem - Desenvolvimento correto para encontrar a demanda final.</p>
@@ -366,19 +369,19 @@ A seguir o resultato total e detalhado da [equação final](#equação_original4
 
 #### 8.1.3.1 Resultados pelo método do ponto médio
 
-#### 								<p id="Equação_ponto_medio" align = "center"> Imagem-Resultado com a equação do ponto médio ajustada para encontra o valor final da demanda, simulação levando em conta a elasticidade.</p>
-![imagem_1](imagem/fundamentacao_matematica/resultado_da_equacao_ponto_medio_desenvolvida.jpg)
+#### 								<p id="Equação_ponto_medio" align = "center"> Imagem - Resultado com a equação do ponto médio ajustada para encontra o valor final da demanda, simulação levando em conta a elasticidade.</p>
+![imagem_1](imagem/resultado_da_equacao_ponto_medio_desenvolvida.jpg)
 
 
-#### 8.1.3.1 Equação alternativa, desenvolvida com o uso do método do ponto médio
+#### 8.1.3.2 Equação alternativa, desenvolvida com o uso do método do ponto médio
 
 #### 								<p id="Equação alternativa" align = "center"> Imagem-Equação alternativa com código dos ajustes.</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio3.jpg)
 
-#### 8.1.3.1.1 Resultados da equação final
-A seguir o resultato total e detalhado da [equação final](#ponto_medio2) no modo inteligente.
 
-#### 8.1.3.1.2 Resultados da equação alternativa
+
+
+#### 8.1.3.2.1 Resultados da equação alternativa
 Os resultados referente a esta equação usando o modo inteligente está disponível em [Imagem - Levando em conta a elasticidade, resultado detalhado.](#smart_result_detail)
 
 

@@ -1,5 +1,11 @@
 **Vídeos**
-Leu o Readme e não entendeu, ou está com preguiça de ler?! Tudo bem, pode assistir às apresentações referentes a este projeto aqui:  🚧 👷‍♂️
+
+Leu o Readme e não entendeu, ou está com preguiça de ler?! Tudo bem, pode assistir às apresentações referentes a este projeto aqui:  
+
+* [Apresentação do Readme](https://youtu.be/jQJhXWjFwiw)
+* O que este trabalho tem de diferente: 🚧 👷‍♂️ 
+* Apresentação do Notebook: 🚧 👷‍♂️
+----
  
 <p align="center"> <img src="imagem/Ecommerce-Website.jpg" alt="Analyzing customer groups"> </p>
 

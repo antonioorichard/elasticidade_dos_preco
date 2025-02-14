@@ -369,6 +369,10 @@ A seguir o resultato total e detalhado da [equação final](#equação_original4
 #### 								<p id="ponto_medio1" align = "center"> Imagem - Encontrando a equação da demanda final pelo método do ponto médio.</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio1.jpg)
 
+#### 								<p id="ponto_medio1_2" align = "center"> Imagem - Encontrando a equação da demanda final pelo método do ponto médio outra opção.</p>
+![imagem_1](imagem/fundamentacao_matematica/ponto_medio1_2.jpg)
+
+
 #### 								<p id="ponto_medio2" align = "center"> Imagem - Observando a equação resultante do ponto médio na prática.</p>
 ![imagem_1](imagem/fundamentacao_matematica/ponto_medio2.jpg)
 
